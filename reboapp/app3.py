@@ -211,3 +211,17 @@ if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
 
+# ====== Home ======
+@app.route("/")
+def home():
+    return "NeuroBet Litecoin backend is running with BlockCypher."
+
+# ====== Background Thread ======
+th = threading.Thread(target=check_payments)
+th.daemon = True
+th.start()
+
+# ====== Run Server ======
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
