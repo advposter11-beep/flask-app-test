@@ -21,7 +21,7 @@ CORS(app, origins=["https://mr-xneuro.github.io"])
 
 # ====== Config ======
 RECEIVING_ADDRESS = "ltc1q8lhjswg03t8pkw62ht59pq8za7wn2xvqmxcsxk"
-EXPECTED_AMOUNT = 3.6  # LTC
+EXPECTED_AMOUNT = 1.35  # LTC
 ADMIN_EMAIL = "mrxai-architect@tuta.io"
 SUPPORT_EMAIL = "wilicower@gmail.com"
 BLOCKCYPHER_TOKEN = "4a658c640789481bb34b31e1a4a13338"
