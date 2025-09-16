@@ -21,7 +21,11 @@ CORS(app, origins=["https://mr-xneuro.github.io"])
 
 # ====== Config ======
 RECEIVING_ADDRESS = "ltc1q8lhjswg03t8pkw62ht59pq8za7wn2xvqmxcsxk"
+<<<<<<< HEAD
 EXPECTED_AMOUNT = 5  # LTC
+=======
+EXPECTED_AMOUNT = 0.35  # LTC
+>>>>>>> parent of 8dbc045 (update EXPECTED_AMOUNT in app1.py)
 ADMIN_EMAIL = "mrxai-architect@tuta.io"
 SUPPORT_EMAIL = "wilicower@gmail.com"
 BLOCKCYPHER_TOKEN = "4a658c640789481bb34b31e1a4a13338"
